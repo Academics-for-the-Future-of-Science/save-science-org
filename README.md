@@ -1,6 +1,6 @@
 # Setting up development environment
 
-- [Make sure VirtualBox is installed](https://www.virtualbox.org/)
+- [Make sure VirtualBox is installed](https://www.virtualbox.org/).
 - [Get docker installed](https://docs.docker.com/engine/installation/).
 - The [Docker toolbox link](https://www.docker.com/products/docker-toolbox) has a binary to download.
 - You should be able to run `docker ps` after a successful installation. If you have trouble, try reinstalling VirtualBox. 
