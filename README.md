@@ -6,8 +6,8 @@
 - You should be able to run `docker ps` after a successful installation. If you have trouble, try reinstalling VirtualBox. 
 - If you have trouble getting VirtualBox to assign `docker-machine` an ip, run this command:
 ```
-$ docker-machine rm default
-$ docker-machine create --driver virtualbox default
+docker-machine rm default
+docker-machine create --driver virtualbox default
 ```
 - Run this command, and then add to your bash profile: 
 ```
