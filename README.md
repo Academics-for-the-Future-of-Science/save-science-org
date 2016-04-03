@@ -9,7 +9,7 @@
 docker-machine rm default
 docker-machine create --driver virtualbox default
 ```
-- Run this command, and then add to your bash profile: 
+- Run this command, and then add to your bash profile (found at `~/.bash_profile`): 
 ```
 eval "$(docker-machine env default)"
 ```
