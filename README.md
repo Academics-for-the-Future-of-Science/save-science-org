@@ -13,7 +13,13 @@ docker-machine create --driver virtualbox default
 ```
 eval "$(docker-machine env default)"
 ```
-- Run `docker-compose up`
+- create a clone which creates a new file somewhere of your choosing on your computer
+- from terminal cd into the place you would like to place the clone
+- then run $git clone https://github.com/Academics-for-the-Future-of-Science/save-science-org.git
+- then cd into the save-science-org folder that it created
+- then from terminal in that folder 
+
+- Run `docker-compose up` 
 
 # Installing wordpress
 
