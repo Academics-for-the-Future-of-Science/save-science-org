@@ -1,5 +1,12 @@
 # Setting up development environment
 
+Useful pages to read:
+- https://docs.docker.com/compose/overview/
+- https://docs.docker.com/compose/wordpress/
+- https://help.github.com/articles/set-up-git/
+
+Instructions for setup:
+
 - [Make sure VirtualBox is installed](https://www.virtualbox.org/).
 - [Get docker installed](https://docs.docker.com/engine/installation/).
 - The [Docker toolbox link](https://www.docker.com/products/docker-toolbox) has a binary to download.
