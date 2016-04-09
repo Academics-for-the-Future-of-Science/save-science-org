@@ -1,5 +1,12 @@
 # Setting up development environment
 
+Useful pages to read:
+- https://docs.docker.com/compose/overview/
+- https://docs.docker.com/compose/wordpress/
+- https://help.github.com/articles/set-up-git/
+
+Instructions for setup:
+
 - [Make sure VirtualBox is installed](https://www.virtualbox.org/).
 - [Get docker installed](https://docs.docker.com/engine/installation/).
 - The [Docker toolbox link](https://www.docker.com/products/docker-toolbox) has a binary to download.
@@ -13,7 +20,13 @@ docker-machine create --driver virtualbox default
 ```
 eval "$(docker-machine env default)"
 ```
-- Run `docker-compose up`
+- create a clone which creates a new file somewhere of your choosing on your computer
+- from terminal cd into the place you would like to place the clone
+- then run $git clone https://github.com/Academics-for-the-Future-of-Science/save-science-org.git
+- then cd into the save-science-org folder that it created
+- then from terminal in that folder 
+
+- Run `docker-compose up` 
 
 # Installing wordpress
 
