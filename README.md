@@ -56,7 +56,18 @@ wp_footer();
 
 The assumption is that the site will quickly evolve beyond this bare minimum through development of a custom theme.
 
+# Installing plugins
+
+Plugins are managed via [WP-Packagist](https://wpackagist.org/). You can install plugins by putting them in composer.json, which will use composer to install the plugins you want. For instance, see how akismet, a common spam prevention plugin, is installed:
+
+```
+  "require": {
+    "wpackagist-plugin/akismet":"dev-trunk"
+  },
+```
+
+The value on the left, `wpackagist-plugin/akismet`, is the plugin to install, and `dev-trunk` is the version. You can see a list of all plugins and versions [here](https://wpackagist.org/search?q=&type=plugin&search=). Be careful about what plugins you install! Plugins are 3rd party code that can execute malicious code on your server.
+
 # TODO
 
-- A manifest file for plugin dependencies / installations.
 - Persistence for development data (i.e. so developers can share data), or a manifest for shared data in development (i.e. site titles, pages to include, etc.)

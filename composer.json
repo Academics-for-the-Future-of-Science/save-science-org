@@ -1,0 +1,17 @@
+{
+  "name": "Academics-for-the-Future-of-Science/save-science-org",
+  "description": "Save science wordpress site.",
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "wpackagist-plugin/akismet":"dev-trunk"
+  },
+  "autoload": {
+    "psr-0": {
+    }
+  }
+}
