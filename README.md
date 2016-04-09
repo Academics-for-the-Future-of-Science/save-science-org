@@ -28,10 +28,11 @@ eval "$(docker-machine env default)"
 
 - Run `docker-compose up` 
 
-# Installing wordpress
+# Using
 
 - Run `docker-machine ip` to get the ip of docker / virtual box ip. Go to IP:8000 (the ip address from `docker-machine ip`, followed by port 8000)
-- Pick some sane / easy to remember development values, like `test` / `test` for a username and password.
+- Wordpress will be automatically installed
+- Developer username and password: `test` / `test`
 
 # Customizing theme
 
