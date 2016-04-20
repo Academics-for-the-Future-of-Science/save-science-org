@@ -6,6 +6,7 @@ php ./composer-install
 cp /composer.json .
 php composer.phar install
 cp /wp-config.php .
+mysqladmin -hdb_1 -uroot -pexample create wordpress
 cp /install.php .
 php install.php
 exec apache2-foreground
