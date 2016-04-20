@@ -1,5 +1,7 @@
 #!/bin/bash
 cd /var/www/html
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+cp /composer-install .
 php ./composer-install
 cp /composer.json .
 php composer.phar install

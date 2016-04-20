@@ -1,6 +1,6 @@
 FROM wordpress
 RUN apt-get update && apt-get install -y --fix-missing git subversion
-COPY composer-install /var/www/html/composer-install
+COPY composer-install /composer-install
 COPY save-science-entrypoint.sh /entrypoint2.sh
 COPY install.php /install.php
 COPY composer.json /composer.json
